@@ -1,6 +1,6 @@
 # ML Malaria prediction
 
-This repository provides implementation of our machine learning model for predicting Plasmodium liver stage development in vitro using microscopy imaging.
+This repository provides the implementation of our machine learning model for predicting Plasmodium liver stage development in vitro using microscopy imaging.
 
 In our work, we delve into the liver stage development of the P. berghei parasite responsible for the Malaria virus and examine the host-parasite interactions using HeLa cells.  We aimed to use fluorescent microscopy images of in conjunction with artificial intelligence to predict the development of the parasite as opposed to classifying the images at the end of the development stage.
 
@@ -8,7 +8,7 @@ In our work, we delve into the liver stage development of the P. berghei parasit
 
 **Dependencies**
 
-This code was tested using Matlab 2023b. It has the following toolbox depencies:
+This code was tested using Matlab 2023b. It has the following toolbox dependencies:
 
 
 **Infected cells - Image data**
@@ -20,7 +20,8 @@ Blood stabilates of P. berghei constitutively expressing mCherry were used to in
 <img src="./Figures/exemplars.png" alt="Several examples of developing and non-developing parasites" width="500">
 
 Development of P. berghei parasites. A) Normal development and (B-D) defective development are shown as still images from time-lapse fluorescent microscopy for the indicated timepoints. In B) the parasite has lost its integrity at 50 hpi, in C) already at 35 hpi and in D) the parasite did develop normally till 45 hpi but then was not progressing.
----
+
+--
 
 **Overall architecture of the proposed neural network.**
 
