@@ -6,11 +6,6 @@ In our work, we delve into the liver stage development of the P. berghei parasit
 
 ---
 
-**Dependencies**
-
-This code was tested using Matlab 2023b. It has the following toolbox dependencies:
-
-
 **Infected cells - Image data**
 
 Blood stabilates of P. berghei constitutively expressing mCherry were used to infect mice. Upon sufficient sexual forms of the parasites (gametocytes), mice were anesthetized using Ketamin/Xylazine. Female Anopheles stephensi mosquitoes were allowed to feed on the anesthetized mice for 30 minutes. Mosquitoes were kept at 20.5◦C and > 80% relative humidity and fed daily with 8% fructose-containing 0.2% para-aminobenzoic acid. From day 18 to 26 post feeding salivary glands of infected mosquitoes were dissected and used for liver-stage infections. Sporozoites were released using a pellet pestle mixer. Around 20,000 Sporozoites released from salivary glands were used to infect confluent HeLa cells (40,000cells/96well in MEM10%FCS, PenStrep seeded the day before). Two hours post-infection the cells were detached with accutase (Innovative Cell Technologies) and reseeded onto 24 well-glass bottom well plates and incubated at 37◦C 5% CO2. Medium was replaced the next day (2ml).
@@ -37,6 +32,15 @@ Using an LSTM based architecture, our proposed model is illustrated below.
 <img src="./Figures/features_time.png" alt="Various parasite features tracked over time illustrating the parasite development." width="1000">
 
 Various parasite features tracked over time illustrating the parasite development: A) volume of parasite-infected cell, B) mean fluorescent signal intensity, C) infected cell elevation, D) number of bright elements inside a parasite-infected cell as proxy for merozoites, E) solidity - computed as ratio of volume to convex volume, F) distance traveled, G) ratio of volume to equivalent diameter, H) equivalent diameter, I) ratio of cell width to height}. Mean values are shown with a blue line (positive) and red line (negative). The shaded areas represent the range of the features and overlapping ranges are marked with dark red.
+
+---
+
+**Dependencies**
+
+This code was tested using Matlab 2023b. It has the following toolbox dependencies:
+- Statistics and Machine Learning Toolbox
+- Deep learning Toolbox
+- Computer Vision Toolbox
 
 ---
 
